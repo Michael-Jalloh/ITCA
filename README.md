@@ -7,9 +7,22 @@ This is a authentication package, that will help in facilitating a centralize au
 cd into the directory
 
 `cd ITCA`
+ 
+then type 
+
+`sudo apt install virtualenv`
+
+then next type
+ 
+`virtualenv .` to install to current directory
+
+then type
 
 `pip install -r requirements.txt`
+ 
+if you encounter permission denied then type
 
+`pip install -r requirements.txt`
 
 ## Usage
 `python app.py`
